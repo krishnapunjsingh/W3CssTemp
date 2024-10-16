@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    height: 100%;
+    width: 100%;
+} */
+.main{
+    height: 500px;
+    background-image: url("./parallax1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -0px ;
+    opacity: 0.8;
+}
+.element{
+    display: flex;
+    gap: 70px;
+    margin-left: 30px;
+
+}
+.img1{
+    height: 15px;
+}
+.mid{
+    height: 80vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid1{
+    height: 10%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c0909;
+}
+.h1{
+    color: white;
+}
+.footer1{
+  margin: 8% 13%;
+}
+.para1{
+    font-size: 30px;
+    margin: 30px;
+}
+.p2{
+    display: flex;
+    justify-content: center;
+}
+.p3{
+    margin: 30px;
+    font-size: 16px;
+}
+.fotter{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-left: 270px;
+}
+.fotter1{
+    height: 300px;
+    width: 35%;
+    background-color: white;
+    background-image: url("./photoWomen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer2{
+    height: 300px;
+    width: 35%;
+    background-color: white;
+    margin-right: 10rem;
+    padding: 35px;
+   
+}
